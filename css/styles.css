@@ -1,0 +1,231 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.head-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.contacts-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-left: 3px solid #009aff;
+}
+
+.contacts-top-links {
+    text-decoration: none;
+    color: #000;
+    transition: .5s;
+}
+
+.contacts-top-links:hover {
+    color: #009aff;
+    transition: .5s;
+}
+
+.fa-contacts-top {
+    width: 50px;
+    text-align: center;
+}
+
+.main-nav {
+    background-color: #e7e7e7;
+    margin-top: 10px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-nav {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: .5s;
+}
+
+.link-nav:hover {
+    border-bottom: 3px solid #009aff;
+    color: #009aff;
+    transition: .5s;
+}
+
+.link-yamal {
+    color: #ff5a5a;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.link-yamal:hover {
+    color: #ff5a5a;
+    border-bottom: 3px solid #ff5a5a;
+    transition: .5s;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.main-heading {
+    border-bottom: 3px solid #009aff;
+}
+
+.text-ordinary {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+footer {
+    flex: 0 0 auto;
+    height: 123px;
+    background-color: #009aff;
+}
+
+.copyright {
+    display: flex;
+    height: 123px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-copyright {
+    display: inline-block;
+    color: #fff;
+}
+
+.logo-footer {
+    margin-right: 10px;
+}
+
+.main-points {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.main-item {
+    position: relative;
+    width: 30%;
+    height: 300px;
+    background-color: #ccc;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.dark_layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+    z-index: 0;
+}
+
+.main-item-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    color: #fff;
+}
+
+.short-info {
+    display: none;
+    font-weight: 300;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 0 10px;
+    box-shadow: inset 0px -14px 10px -3px #9e9e9e;
+    cursor: default;
+}
+
+.heading-item {
+    text-transform: uppercase;
+    text-align: center;
+    cursor: default;
+}
+
+.item-about {
+    background-image: url(../img/putin_gaz.jpg);
+}
+
+.main-item-link {
+    display: none;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #009aff;
+    padding: 20px 0;
+    transition: 1s;
+}
+
+.main-item:hover .short-info {
+    display: block;
+}
+
+.main-item:hover .main-item-link {
+    display: block;
+}
+
+.main-item-link:hover {
+    background-color: #8fd3ff;
+    transition: 1s;
+}
+
+.wrapper-content-services, .wrapper-content-projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-services, .items-projects {
+    min-width: 30%;
+    border-right: 1px solid #009aff;
+}
+
+.link-service, .link-projects {
+    display: block;
+    text-decoration: none;
+    color: #009aff;
+    padding: 15px 15px 0 0;
+}
+
+.description-service, .description-projects {
+    padding-left: 15px;
+}
+
+.active-link {
+    color: #ff5a5a;
+}
