@@ -229,3 +229,33 @@ footer {
 .active-link {
     color: #ff5a5a;
 }
+
+.block-customers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-customer {
+    width: 30%;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.logo-customer {
+    display: block;
+    max-width: 100%;
+    height: 120px;
+    margin: 0 auto;
+    transition: .5s;
+}
+
+.item-customer > h3 {
+    font-size: 1em;
+    text-align: center;
+}
+
+.item-customer:hover .logo-customer {
+    transform: scale(1.1);
+    transition: .5s;
+}
