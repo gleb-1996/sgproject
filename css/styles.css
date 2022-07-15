@@ -252,7 +252,7 @@ footer {
     transition: .5s;
 }
 
-.item-customer > h3 {
+.name-company, .name-review {
     font-size: 1em;
     text-align: center;
     color: #ff5a5a;
@@ -260,5 +260,38 @@ footer {
 
 .item-customer:hover .logo-customer {
     transform: scale(1.1);
+    transition: .5s;
+}
+
+.reviews-link:hover .img-review {
+    transform: scale(1.03);
+    transition: .5s;
+}
+
+.block-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.reviews-link:first-child, .reviews-link:nth-child(4) {
+    margin-left: 0;
+}
+
+.reviews-link {
+    width: 30%;
+    text-decoration: none;
+    border-bottom: 1px solid #009aff;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.img-review {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #e7e7e7;
     transition: .5s;
 }
