@@ -295,3 +295,26 @@ footer {
     border: 1px solid #e7e7e7;
     transition: .5s;
 }
+
+.text-contact {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1em;
+}
+
+.map {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.fa-arrow-down {
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    color: #009aff;
+}
+
+.wrap-text-contact {
+    margin-bottom: 30px;
+}
