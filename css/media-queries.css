@@ -1,0 +1,22 @@
+@media screen and (max-width: 1023px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* header */
+
+@media screen and (max-width: 1023px) {
+    .contacts-top {
+        display: none;
+    }
+
+    .navigation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+        flex-direction: column;
+        background-color: #009aff;
+    }
+}
