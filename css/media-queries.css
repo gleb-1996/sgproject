@@ -68,3 +68,17 @@
         width: 100%;
     }
 }
+
+/* Content customers page */
+
+@media screen and (max-width: 768px) {
+    .item-customer {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .item-customer {
+        width: 100%;
+    }
+}
