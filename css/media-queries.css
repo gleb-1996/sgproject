@@ -57,6 +57,12 @@
 
 /* Content main page */
 
+@media screen and (max-width: 768px) {
+    .main-item {
+        width: 48%;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .main-item {
         width: 100%;
