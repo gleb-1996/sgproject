@@ -1,6 +1,6 @@
 @media screen and (max-width: 1023px) {
     .container {
-        width: 100%;
+        width: 94%;
     }
 }
 
@@ -18,5 +18,17 @@
         display: none;
         flex-direction: column;
         background-color: #009aff;
+        z-index: 200;
+    }
+
+    .fa-bars {
+        display: flex;
+    }
+
+    .main-nav {
+        margin: 0;
     }
 }
+
+/* Content main page */
+

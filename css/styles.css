@@ -318,3 +318,12 @@ footer {
 .wrap-text-contact {
     margin-bottom: 30px;
 }
+
+.fa-bars {
+    display: none;
+    align-items: center;
+    font-size: 2.5em;
+    color: #009aff;
+    padding: 0 20px;
+    border: 1px solid #009aff;
+}
