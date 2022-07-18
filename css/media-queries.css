@@ -57,3 +57,8 @@
 
 /* Content main page */
 
+@media screen and (max-width: 425px) {
+    .main-item {
+        width: 48%;
+    }
+}
