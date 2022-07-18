@@ -327,3 +327,13 @@ footer {
     padding: 0 20px;
     border: 1px solid #009aff;
 }
+
+.fa-times-circle-o {
+    color: #fff;
+    background-color: #ff5a5a;
+}
+
+.close-mobile-nav {
+    display: none;
+    background-color: #ff5a5a;
+}
