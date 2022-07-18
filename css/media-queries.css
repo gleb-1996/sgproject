@@ -49,5 +49,11 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .navigation {
+        width: 70%;
+    }
+}
+
 /* Content main page */
 
