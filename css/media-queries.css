@@ -82,3 +82,23 @@
         width: 100%;
     }
 }
+
+/* Content contacts page */
+
+@media screen and (max-width: 1023px) {
+    .text-contact {
+        width: 769px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-contact {
+        width: 425px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .text-contact {
+        width: 100%;
+    }
+}
