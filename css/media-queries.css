@@ -83,6 +83,25 @@
     }
 }
 
+/* Content reviews page */
+
+@media screen and (max-width: 1023px) {
+    .block-reviews {
+        justify-content: space-between;
+    }
+
+    .reviews-link {
+        width: 48%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .reviews-link {
+        width: 100%;
+    }
+}
+
 /* Content contacts page */
 
 @media screen and (max-width: 1023px) {
