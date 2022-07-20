@@ -382,3 +382,31 @@ footer {
     padding: 0;
     margin: 20px 0;
 }
+
+.seminar-topics {
+    margin-top: 10px;
+    border-bottom: 1px solid #009aff;
+}
+
+.seminar-topics:first-child {
+    margin: 0;
+}
+
+.topic-text {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.list-seminars {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.seminar {
+    padding-top: 5px;
+}
+
+.seminar:last-child {
+    padding-bottom: 5px;
+}
