@@ -244,18 +244,20 @@ footer {
 }
 
 .items-services, .items-projects {
-    min-width: 30%;
+    width: 30%;
     border-right: 1px solid #009aff;
+    padding-right: 15px;
 }
 
 .link-service, .link-projects {
     display: block;
     text-decoration: none;
     color: #009aff;
-    padding: 15px 15px 0 0;
+    padding-top: 15px;
 }
 
 .description-service, .description-projects {
+    width: 70%;
     padding-left: 15px;
 }
 
@@ -371,4 +373,11 @@ footer {
 .close-mobile-nav {
     display: none;
     background-color: #ff5a5a;
+}
+
+.nav-seminars {
+    color: #009aff;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
 }
