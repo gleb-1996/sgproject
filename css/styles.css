@@ -241,6 +241,7 @@ footer {
 .wrapper-content-services, .wrapper-content-projects {
     display: flex;
     justify-content: space-between;
+    min-height: 600px;
 }
 
 .items-services, .items-projects {
