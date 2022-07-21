@@ -392,12 +392,12 @@ footer {
     margin: 0;
 }
 
-.topic-text {
+/* .topic-text {
     display: block;
     font-weight: bold;
     padding-bottom: 5px;
     cursor: default;
-}
+} */
 
 .list-seminars {
     padding-left: 20px;
@@ -413,6 +413,6 @@ footer {
     padding-bottom: 5px;
 }
 
-.border-active-list {
+/* .border-active-list {
     border-bottom: 1px solid #ff5a5a !important;
-}
+} */
