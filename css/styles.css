@@ -11,6 +11,14 @@ p {
     margin: 15px 0;
 }
 
+.show-content {
+    display: block;
+}
+
+.hide-content {
+    display: none;
+}
+
 .show {
     display: flex !important;
 }
@@ -392,12 +400,12 @@ footer {
     margin: 0;
 }
 
-/* .topic-text {
+.topic-text {
     display: block;
     font-weight: bold;
     padding-bottom: 5px;
     cursor: default;
-} */
+}
 
 .list-seminars {
     padding-left: 20px;
@@ -412,7 +420,3 @@ footer {
 .seminar:last-child {
     padding-bottom: 5px;
 }
-
-/* .border-active-list {
-    border-bottom: 1px solid #ff5a5a !important;
-} */
