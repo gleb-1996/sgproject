@@ -380,7 +380,7 @@ footer {
     color: #009aff;
     list-style: none;
     padding: 0;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 
 .seminar-topics {
@@ -459,4 +459,16 @@ li.seminar.active-link:hover {
 .link-content:hover {
     color: #ff5a5a;
     border-bottom: 1px dashed transparent;
+}
+
+.description-project h2, .description-seminar h2 {
+    margin: 15px 0 0 0;
+}
+
+.description-seminar, .description-project {
+    margin-bottom: 15px;
+}
+
+.link-projects:last-child {
+    margin-bottom: 15px;
 }
