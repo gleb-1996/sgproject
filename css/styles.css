@@ -241,7 +241,7 @@ footer {
 .wrapper-content-services, .wrapper-content-projects {
     display: flex;
     justify-content: space-between;
-    min-height: 600px;
+    min-height: 750px;
 }
 
 .items-services, .items-projects {
@@ -423,6 +423,7 @@ footer {
 
 li.seminar.active-link:hover {
     text-decoration: none;
+    cursor: default;
 }
 
 .list-description-seminar {
