@@ -164,10 +164,9 @@ footer {
     position: relative;
     width: 30%;
     height: 300px;
-    background-color: #ccc;
     margin-top: 20px;
-    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .dark_layer {
@@ -175,7 +174,7 @@ footer {
     width: 100%;
     height: 100%;
     background-color: #000;
-    opacity: .5;
+    opacity: .8;
     z-index: 0;
 }
 
@@ -207,7 +206,27 @@ footer {
 }
 
 .item-about {
-    background-image: url(../img/putin_gaz.jpg);
+    background-image: url(../img/logo.png);
+}
+
+.item-seminars {
+    background-image: url(../img/logo.png);
+}
+
+.item-projects {
+    background-image: url(../img/logo.png);
+}
+
+.item-customers {
+    background-image: url(../img/logo.png);
+}
+
+.item-reviews {
+    background-image: url(../img/logo.png);
+}
+
+.item-contacts {
+    background-image: url(../img/logo.png);
 }
 
 .main-item-link {
