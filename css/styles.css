@@ -11,6 +11,10 @@ p {
     margin: 15px 0;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
 .show-content {
     display: block;
 }
@@ -111,18 +115,6 @@ p {
 .link-nav:hover {
     border-bottom: 3px solid #009aff;
     color: #009aff;
-    transition: .5s;
-}
-
-.link-yamal {
-    color: #ff5a5a;
-    font-weight: bold;
-    transition: .5s;
-}
-
-.link-yamal:hover {
-    color: #ff5a5a;
-    border-bottom: 3px solid #ff5a5a;
     transition: .5s;
 }
 
@@ -400,6 +392,10 @@ footer {
     margin: 0;
 }
 
+.seminar-topics:last-child {
+    border: none;
+}
+
 .topic-text {
     display: block;
     font-weight: bold;
@@ -409,7 +405,7 @@ footer {
 
 .list-seminars {
     padding-left: 20px;
-    list-style: none;
+    list-style: outside;
 }
 
 .seminar {
@@ -419,4 +415,37 @@ footer {
 
 .seminar:last-child {
     padding-bottom: 5px;
+}
+
+.seminar:hover {
+    text-decoration: underline;
+}
+
+li.seminar.active-link:hover {
+    text-decoration: none;
+}
+
+.list-description-seminar {
+    list-style: none;
+    font-size: 1.2em;
+    padding-left: 30px;
+    margin: 0;
+}
+
+.elem-list-description {
+    position: relative;
+    margin-top: 10px;
+}
+
+.elem-list-description:first-child {
+    margin: 0;
+}
+
+.marker-list {
+    position: absolute;
+    left: -30px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
