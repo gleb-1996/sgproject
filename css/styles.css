@@ -218,7 +218,8 @@ footer {
 }
 
 .item-customers {
-    background-image: url(../img/customers/logo_ukhta.png);
+    background-image: url(../img/back_customers.png);
+    background-size: 90%;
 }
 
 .item-reviews {
