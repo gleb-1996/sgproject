@@ -1,7 +1,21 @@
 'use strict';
 
+const screenWidth = window.screen.width;
 let $seminarNavigationPoints = document.querySelectorAll('.seminar');
 let $seminarContentBlocks = document.querySelectorAll('.description-seminar');
+let $itemsServices = document.querySelector('.items-services');
+
+if (screenWidth <= 425) {
+    $itemsServices.classList.add('hide-content');
+}
+
+window.addEventListener('resize', function(){
+    if (window.screen.width > 425) {
+        $itemsServices.classList.remove('hide-content');
+    } else {
+        $itemsServices.classList.add('hide-content');
+    }
+});
 
 function hideContentBlocks(a) {
     for (let i = a; i < $seminarContentBlocks.length; i++) {
@@ -28,4 +42,12 @@ document.querySelector('.nav-seminars').addEventListener('click', function(event
             }
         }
     }
+});
+
+document.querySelector('.open-list-seminars').addEventListener('click', function(){
+    $itemsServices.classList.remove('hide-content');
+});
+
+document.querySelector('.close-mobile-nav-seminars').addEventListener('click', function(){
+    $itemsServices.classList.add('hide-content');
 });
