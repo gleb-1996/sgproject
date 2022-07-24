@@ -9,14 +9,6 @@ if (screenWidth <= 425) {
     $itemsServices.classList.add('hide-content');
 }
 
-window.addEventListener('resize', function(){
-    if (window.screen.width > 425) {
-        $itemsServices.classList.remove('hide-content');
-    } else {
-        $itemsServices.classList.add('hide-content');
-    }
-});
-
 function hideContentBlocks(a) {
     for (let i = a; i < $seminarContentBlocks.length; i++) {
         $seminarContentBlocks[i].classList.add('hide-content');
@@ -30,6 +22,14 @@ function showContentBlocks(b) {
     $seminarContentBlocks[b].classList.remove('hide-content');
     $seminarNavigationPoints[b].classList.add('active-link');
 }
+
+window.addEventListener('resize', function(){
+    if (window.screen.width > 425) {
+        $itemsServices.classList.remove('hide-content');
+    } else {
+        $itemsServices.classList.add('hide-content');
+    }
+});
 
 document.querySelector('.nav-seminars').addEventListener('click', function(event){
     let $target = event.target;
