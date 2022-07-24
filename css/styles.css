@@ -284,7 +284,7 @@ footer {
 }
 
 .active-link {
-    color: #ff5a5a;
+    color: #ff5a5a !important;
 }
 
 .block-customers {
@@ -494,7 +494,7 @@ li.seminar.active-link:hover {
     margin-bottom: 15px;
 }
 
-.open-list-seminars {
+.open-list-seminars, .open-list-projects {
     display: none;
     justify-content: center;
     align-items: center;
@@ -509,7 +509,7 @@ li.seminar.active-link:hover {
     font-size: 1.4em;
 }
 
-.close-mobile-nav-seminars {
+.close-mobile-nav-seminars, .close-mobile-nav-projects {
     position: absolute;
     bottom: 0;
     left: 0;

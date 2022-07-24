@@ -1,7 +1,13 @@
 'use strict';
 
+const screenWidth = window.screen.width;
 let $projectNavigationPoints = document.querySelectorAll('.link-projects');
 let $projectContentBlocks = document.querySelectorAll('.description-project');
+let $itemsProjects = document.querySelector('.items-projects');
+
+if (screenWidth <= 425) {
+    $itemsProjects.classList.add('hide-content');
+}
 
 function hideContentBlocks(a) {
     for (let i = a; i < $projectContentBlocks.length; i++) {
@@ -17,6 +23,14 @@ function showContentBlocks(b) {
     $projectNavigationPoints[b].classList.add('active-link');
 }
 
+window.addEventListener('resize', function(){
+    if (window.screen.width > 425) {
+        $itemsProjects.classList.remove('hide-content');
+    } else {
+        $itemsProjects.classList.add('hide-content');
+    }
+});
+
 document.querySelector('.items-projects').addEventListener('click', function(event){
     let $target = event.target;
 
@@ -30,4 +44,12 @@ document.querySelector('.items-projects').addEventListener('click', function(eve
             }
         }
     }
+});
+
+document.querySelector('.open-list-projects').addEventListener('click', function(){
+    $itemsProjects.classList.remove('hide-content');
+});
+
+document.querySelector('.close-mobile-nav-projects').addEventListener('click', function(){
+    $itemsProjects.classList.add('hide-content');
 });

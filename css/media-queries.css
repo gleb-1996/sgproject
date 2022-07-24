@@ -122,15 +122,15 @@
     }
 }
 
-/* Content seminars page */
+/* Content seminars and projects page */
 
 @media screen and (max-width: 425px) {
-    .description-service {
+    .description-service, .description-projects {
         width: 100%;
         padding: 0;
       }
 
-      .items-services {
+      .items-services, .items-projects {
         position: fixed;
         top: 0;
         left: 0;
@@ -150,16 +150,15 @@
         margin: 0;
       }
 
-      .description-service {
-        width: 100%;
-        padding: 0;
+      .link-projects {
+        color: #fff;
       }
 
-      .close-mobile-nav-seminars {
+      .close-mobile-nav-seminars, .close-mobile-nav-projects {
         display: flex;
       }
 
-      .open-list-seminars {
+      .open-list-seminars, .open-list-projects {
         display: flex;
       }
 }
