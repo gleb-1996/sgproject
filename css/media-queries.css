@@ -162,3 +162,23 @@
         display: flex;
       }
 }
+
+/* Modal window */
+
+@media screen and (max-width: 1024px) {
+    .modal-window {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .modal-window {
+        width: 425px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .modal-window {
+        width: 100%;
+    }
+}
