@@ -167,6 +167,10 @@
       .open-list-seminars, .open-list-projects {
         display: flex;
       }
+
+      .active-link {
+        color: #ffa0a0 !important;
+    }
 }
 
 /* Modal window */
