@@ -7,11 +7,31 @@ let $closeModalWindow = document.querySelector('.close-modal-window');
 
 $content.addEventListener('click', function(event){
     let $elemTarget = event.target;
+    let attrHref;
 
     if ($elemTarget.classList.contains('link-content')) {
         event.preventDefault();
 
-        let attrHref = $elemTarget.getAttribute('href');
+        attrHref = $elemTarget.getAttribute('href');
+
+        $modalWindow.classList.remove('hide-content');
+        $imgModalWindow.setAttribute('src', attrHref);
+    }
+
+    if ($elemTarget.classList.contains('reviews-link')) {
+        event.preventDefault();
+
+        attrHref = $elemTarget.getAttribute('href');
+
+        $modalWindow.classList.remove('hide-content');
+        $imgModalWindow.setAttribute('src', attrHref);
+    }
+
+    if ($elemTarget.classList.contains('img-review') || $elemTarget.classList.contains('name-review')) {
+        event.preventDefault();
+
+        let $elemParent = $elemTarget.parentNode;
+        attrHref = $elemParent.getAttribute('href');
 
         $modalWindow.classList.remove('hide-content');
         $imgModalWindow.setAttribute('src', attrHref);
