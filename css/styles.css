@@ -52,7 +52,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border-left: 3px solid #009aff;
+    border-left: 3px solid #006ed6;
 }
 
 .contacts-top-links, .contacts-links {
@@ -62,7 +62,7 @@ p {
 }
 
 .contacts-top-links:hover, .contacts-links:hover {
-    color: #009aff;
+    color: #006ed6;
     transition: .5s;
 }
 
@@ -117,8 +117,8 @@ p {
 }
 
 .link-nav:hover {
-    border-bottom: 3px solid #009aff;
-    color: #009aff;
+    border-bottom: 3px solid #006ed6;
+    color: #006ed6;
     transition: .5s;
 }
 
@@ -127,7 +127,7 @@ p {
 }
 
 .main-heading {
-    border-bottom: 3px solid #009aff;
+    border-bottom: 3px solid #006ed6;
 }
 
 .text-ordinary {
@@ -138,7 +138,7 @@ p {
 footer {
     flex: 0 0 auto;
     height: 123px;
-    background-color: #009aff;
+    background-color: #006ed6;
 }
 
 .copyright {
@@ -210,7 +210,7 @@ footer {
 }
 
 .item-about {
-    background-image: url(../img/logo.png);
+    background-image: url(../img/new_logo.png);
 }
 
 .item-seminars {
@@ -240,7 +240,7 @@ footer {
     text-align: center;
     text-decoration: none;
     color: #fff;
-    background-color: #009aff;
+    background-color: #006ed6;
     padding: 20px 0;
     box-shadow: 0px -30px 20px 0px #d5d5d5;
     transition: 1s;
@@ -271,14 +271,14 @@ footer {
 
 .items-services, .items-projects {
     width: 30%;
-    border-right: 1px solid #009aff;
+    border-right: 1px solid #006ed6;
     padding-right: 15px;
 }
 
 .link-service, .link-projects {
     display: block;
     text-decoration: none;
-    color: #009aff;
+    color: #006ed6;
     padding-top: 15px;
 }
 
@@ -288,7 +288,7 @@ footer {
 }
 
 .active-link {
-    color: #ff5a5a !important;
+    color: #ff4537 !important;
 }
 
 .block-customers {
@@ -302,7 +302,7 @@ footer {
     width: 30%;
     margin-top: 20px;
     text-decoration: none;
-    border-bottom: 1px solid #009aff;
+    border-bottom: 1px solid #006ed6;
 }
 
 .logo-customer {
@@ -316,7 +316,7 @@ footer {
 .name-company, .name-review {
     font-size: 1em;
     text-align: center;
-    color: #ff5a5a;
+    color: #ff4537;
 }
 
 .item-customer:hover .logo-customer {
@@ -343,7 +343,7 @@ footer {
 .reviews-link {
     width: 30%;
     text-decoration: none;
-    border-bottom: 1px solid #009aff;
+    border-bottom: 1px solid #006ed6;
     margin-top: 20px;
     margin-left: 5%;
 }
@@ -373,7 +373,7 @@ footer {
     display: block;
     text-align: center;
     font-size: 5em;
-    color: #009aff;
+    color: #006ed6;
 }
 
 .wrap-text-contact {
@@ -386,23 +386,23 @@ footer {
     display: none;
     align-items: center;
     font-size: 2.5em;
-    color: #009aff;
+    color: #006ed6;
     padding: 0 20px;
-    border: 1px solid #009aff;
+    border: 1px solid #006ed6;
 }
 
 .fa-times-circle-o {
     color: #fff;
-    background-color: #ff5a5a;
+    background-color: #ff4537;
 }
 
 .close-mobile-nav {
     display: none;
-    background-color: #ff5a5a;
+    background-color: #ff4537;
 }
 
 .nav-seminars {
-    color: #009aff;
+    color: #006ed6;
     list-style: none;
     padding: 0;
     margin: 15px 0;
@@ -410,7 +410,7 @@ footer {
 
 .seminar-topics {
     margin-top: 10px;
-    border-bottom: 1px solid #009aff;
+    border-bottom: 1px solid #006ed6;
 }
 
 .seminar-topics:first-child {
@@ -478,11 +478,11 @@ li.seminar.active-link:hover {
 
 .link-content {
     text-decoration: none;
-    border-bottom: 1px dashed #009aff;
+    border-bottom: 1px dashed #006ed6;
 }
 
 .link-content:hover {
-    color: #ff5a5a;
+    color: #ff4537;
     border-bottom: 1px dashed transparent;
 }
 
@@ -503,7 +503,7 @@ li.seminar.active-link:hover {
     justify-content: center;
     align-items: center;
     height: 50px;
-    background-color: #009aff;
+    background-color: #006ed6;
     color: #fff;
     text-transform: uppercase;
 }
@@ -524,7 +524,7 @@ li.seminar.active-link:hover {
     height: 50px;
     text-transform: uppercase;
     color: #fff;
-    background-color: #ff5a5a;
+    background-color: #ff4537;
   }
 
   .wrap-modal-window {
