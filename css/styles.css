@@ -568,3 +568,7 @@ li.seminar.active-link:hover {
 .img-modal-window {
     width: 100%;
 }
+
+.opacity {
+    opacity: .5;
+}
