@@ -71,6 +71,12 @@
 
 /* Content customers page */
 
+@media screen and (max-width: 1024px) {
+    .item-customer {
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .item-customer {
         width: 48%;
