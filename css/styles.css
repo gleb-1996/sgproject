@@ -158,7 +158,13 @@ footer {
 }
 
 .main-points {
-    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.main-points:last-child {
+    display: none;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
