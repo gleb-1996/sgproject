@@ -57,14 +57,24 @@
 
 /* Content main page */
 
+@media screen and (max-width: 1023px) {
+    .main-points {
+        display: none;
+    }
+
+    .main-points-mobile {
+        display: flex;
+    }
+}
+
 @media screen and (max-width: 768px) {
-    .main-item {
+    .main-item, .main-item-mobile {
         width: 48%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .main-item {
+    .main-item, .main-item-mobile {
         width: 100%;
     }
 }

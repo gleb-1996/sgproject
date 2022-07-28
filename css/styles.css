@@ -158,19 +158,20 @@ footer {
 }
 
 .main-points {
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+    display: flex;
 }
 
-.main-points:last-child {
+.main-points-mobile {
     display: none;
+}
+
+.main-points, .main-points-mobile {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-.main-item {
+.main-item, .main-item-mobile {
     position: relative;
     width: 30%;
     height: 300px;
