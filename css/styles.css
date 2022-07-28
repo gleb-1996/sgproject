@@ -429,6 +429,7 @@ footer {
 }
 
 .topic-text {
+    position: relative;
     display: block;
     font-weight: bold;
     padding-bottom: 5px;
@@ -578,4 +579,23 @@ li.seminar.active-link:hover {
 
 .opacity {
     opacity: .5;
+}
+
+.rotate {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.fa-chevron-right {
+    position: absolute;
+    top: 0;
+    right: -5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 5px;
 }
