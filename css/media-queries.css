@@ -155,7 +155,9 @@
         height: 100%;
         background-color: #006ed6;
         padding: 15px 3% 50px 3%;
-        border: 3px solid #ff4537;
+        border-top: 3px solid #ff4537;
+        border-right: 3px solid #ff4537;
+        border-left: 3px solid #ff4537;
         z-index: 9999;
       }
 
