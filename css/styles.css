@@ -433,7 +433,7 @@ footer {
     display: block;
     font-weight: bold;
     padding-bottom: 5px;
-    cursor: default;
+    cursor: pointer;
 }
 
 .list-seminars {
@@ -581,14 +581,6 @@ li.seminar.active-link:hover {
     opacity: .5;
 }
 
-.rotate {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
 .fa-chevron-right {
     position: absolute;
     top: 0;
@@ -598,4 +590,13 @@ li.seminar.active-link:hover {
     align-items: center;
     height: 100%;
     padding-bottom: 5px;
+}
+
+.rotate {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    transition: .3s;
 }

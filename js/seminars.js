@@ -2,11 +2,30 @@
 
 const screenWidth = window.screen.width;
 let $seminarNavigationPoints = document.querySelectorAll('.seminar');
+let $listSeminars = document.querySelectorAll('.list-seminars');
 let $seminarContentBlocks = document.querySelectorAll('.description-seminar');
+let $topics = document.querySelectorAll('.topic-text');
 let $itemsServices = document.querySelector('.items-services');
+
+pageInitState();
 
 if (screenWidth <= 425) {
     $itemsServices.classList.add('hide-content');
+}
+
+function pageInitState() {
+    hideLists(0);
+    $seminarNavigationPoints[0].classList.add('active-link');
+    openActiveList();
+    for (let i = 1; i < $seminarContentBlocks.length; i++) {
+        $seminarContentBlocks[i].classList.add('hide-content');
+    }
+}
+
+function hideLists(index) {
+    for (let i = index; i < $listSeminars.length; i++) {
+        $listSeminars[i].classList.add('hide-content');
+    }
 }
 
 function hideContentBlocks(a) {
@@ -21,6 +40,26 @@ function showContentBlocks(b) {
 
     $seminarContentBlocks[b].classList.remove('hide-content');
     $seminarNavigationPoints[b].classList.add('active-link');
+}
+
+function openActiveList() {
+    let $activelink = document.querySelector('.active-link');
+    let $parentActiveLink = $activelink.parentNode;
+    let $siblingParent = $parentActiveLink.previousElementSibling;
+    let $chevroneRight = $siblingParent.lastChild;
+
+    $parentActiveLink.classList.toggle('hide-content');
+    $chevroneRight.classList.toggle('rotate');
+}
+
+for (const $topic of $topics) {
+    $topic.addEventListener('click', function(){
+        let $sibling = this.nextElementSibling;
+        let $chevronRight = this.lastChild;
+
+        $sibling.classList.toggle('hide-content');
+        $chevronRight.classList.toggle('rotate');
+    });
 }
 
 window.addEventListener('resize', function(){
