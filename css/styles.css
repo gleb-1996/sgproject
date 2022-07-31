@@ -600,3 +600,7 @@ li.seminar.active-link:hover {
     transform: rotate(90deg);
     transition: .3s;
 }
+
+.overflow-hidden {
+    overflow: hidden;
+}

@@ -85,8 +85,10 @@ document.querySelector('.nav-seminars').addEventListener('click', function(event
 
 document.querySelector('.open-list-seminars').addEventListener('click', function(){
     $itemsServices.classList.remove('hide-content');
+    document.body.classList.add('overflow-hidden');
 });
 
 document.querySelector('.close-mobile-nav-seminars').addEventListener('click', function(){
     $itemsServices.classList.add('hide-content');
+    document.body.classList.remove('overflow-hidden');
 });
