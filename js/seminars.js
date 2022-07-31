@@ -14,7 +14,7 @@ if (screenWidth <= 425) {
 }
 
 function pageInitState() {
-    hideLists(0);
+    hideLists(1);
     $seminarNavigationPoints[0].classList.add('active-link');
     openActiveList();
     for (let i = 1; i < $seminarContentBlocks.length; i++) {
@@ -84,6 +84,7 @@ document.querySelector('.nav-seminars').addEventListener('click', function(event
 });
 
 document.querySelector('.open-list-seminars').addEventListener('click', function(){
+    openActiveList();
     $itemsServices.classList.remove('hide-content');
     document.body.classList.add('overflow-hidden');
 });
@@ -91,4 +92,5 @@ document.querySelector('.open-list-seminars').addEventListener('click', function
 document.querySelector('.close-mobile-nav-seminars').addEventListener('click', function(){
     $itemsServices.classList.add('hide-content');
     document.body.classList.remove('overflow-hidden');
+    hideLists(0);
 });
