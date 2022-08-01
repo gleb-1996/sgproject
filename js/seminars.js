@@ -88,13 +88,21 @@ document.querySelector('.nav-seminars').addEventListener('click', function(event
 
 document.querySelector('.open-list-seminars').addEventListener('click', function(){
     openActiveList();
-    
     $itemsServices.classList.remove('hide-content');
     document.body.classList.add('overflow-hidden');
 });
 
 document.querySelector('.close-mobile-nav-seminars').addEventListener('click', function(){
+    let $chevrons = document.querySelectorAll('.fa-chevron-right');
+    
+    for (const elem of $chevrons) {
+        if (elem.classList.contains('rotate')) {
+            elem.classList.remove('rotate');
+        }
+    }
+
     $itemsServices.classList.add('hide-content');
     document.body.classList.remove('overflow-hidden');
+
     hideLists(0);
 });
