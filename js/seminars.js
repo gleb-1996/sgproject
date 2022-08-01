@@ -11,10 +11,11 @@ pageInitState();
 
 if (screenWidth <= 425) {
     $itemsServices.classList.add('hide-content');
+    openActiveList();
 }
 
 function pageInitState() {
-    hideLists(1);
+    hideLists(0);
     $seminarNavigationPoints[0].classList.add('active-link');
     openActiveList();
     for (let i = 1; i < $seminarContentBlocks.length; i++) {
@@ -65,8 +66,10 @@ for (const $topic of $topics) {
 window.addEventListener('resize', function(){
     if (window.screen.width > 425) {
         $itemsServices.classList.remove('hide-content');
+        openActiveList();
     } else {
         $itemsServices.classList.add('hide-content');
+        openActiveList();
     }
 });
 
@@ -85,6 +88,7 @@ document.querySelector('.nav-seminars').addEventListener('click', function(event
 
 document.querySelector('.open-list-seminars').addEventListener('click', function(){
     openActiveList();
+    
     $itemsServices.classList.remove('hide-content');
     document.body.classList.add('overflow-hidden');
 });
