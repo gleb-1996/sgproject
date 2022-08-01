@@ -48,8 +48,10 @@ document.querySelector('.items-projects').addEventListener('click', function(eve
 
 document.querySelector('.open-list-projects').addEventListener('click', function(){
     $itemsProjects.classList.remove('hide-content');
+    document.body.classList.add('overflow-hidden');
 });
 
 document.querySelector('.close-mobile-nav-projects').addEventListener('click', function(){
     $itemsProjects.classList.add('hide-content');
+    document.body.classList.remove('overflow-hidden');
 });
