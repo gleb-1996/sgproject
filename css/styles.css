@@ -372,11 +372,12 @@ footer {
     border-bottom: 1px solid #ccc;
 }
 
-.fa-arrow-down {
+.fa-hand-o-down {
     display: block;
     text-align: center;
     font-size: 5em;
     color: #006ed6;
+    margin: 10px 0;
 }
 
 .wrap-text-contact {
