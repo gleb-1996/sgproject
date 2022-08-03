@@ -7,7 +7,8 @@ body {
 }
 
 p {
-    font-size: 1.2em;
+    text-align: justify;
+    font-size: 1em;
     margin: 15px 0;
 }
 
@@ -131,7 +132,7 @@ p {
 }
 
 .text-ordinary {
-    font-size: 1.2em;
+    font-size: 1em;
     text-align: justify;
 }
 
@@ -159,13 +160,6 @@ footer {
 
 .main-points {
     display: flex;
-}
-
-.main-points-mobile {
-    display: none;
-}
-
-.main-points, .main-points-mobile {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
@@ -184,8 +178,8 @@ footer {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #000;
-    opacity: .8;
+    background-color: #879fdd;
+    opacity: .3;
     z-index: 0;
 }
 
@@ -193,7 +187,7 @@ footer {
     position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
     z-index: 100;
@@ -211,9 +205,12 @@ footer {
 }
 
 .heading-item {
+    position: relative;
+    color: #fff;
     text-transform: uppercase;
     text-align: center;
     cursor: default;
+    z-index: 100;
 }
 
 .item-about {
@@ -249,13 +246,12 @@ footer {
     color: #fff;
     background-color: #006ed6;
     padding: 20px 0;
-    box-shadow: 0px -30px 20px 0px #d5d5d5;
     transition: 1s;
 }
 
-.main-item:hover .main-item-content {
+/* .main-item:hover .main-item-content {
     justify-content: space-between;
-}
+} */
 
 .main-item:hover .short-info {
     display: block;
@@ -469,6 +465,7 @@ li.seminar.active-link:hover {
 .elem-list-description {
     position: relative;
     margin-top: 10px;
+    font-size: .85em;
 }
 
 .elem-list-description:first-child {
@@ -603,4 +600,24 @@ li.seminar.active-link:hover {
 
 .overflow-hidden {
     overflow: hidden;
+}
+
+.email-seminars {
+    background-color: #e7e7e7;
+    padding: 15px 0;
+}
+
+.wrap-heading-item {
+    position: relative;
+}
+
+.layer-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .8;
+    z-index: 0;
 }
