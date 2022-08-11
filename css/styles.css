@@ -604,6 +604,7 @@ li.seminar.active-link:hover {
 }
 
 .email-seminars {
+    display: none;
     background-color: #e7e7e7;
     padding: 15px 0;
 }

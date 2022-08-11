@@ -136,6 +136,12 @@
 
 /* Content seminars and projects page */
 
+@media screen and (max-width: 1023px) {
+    .email-seminars {
+        display: block;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .description-service, .description-projects {
         width: 100%;
