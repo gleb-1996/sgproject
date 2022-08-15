@@ -232,7 +232,8 @@ footer {
 
 .item-reviews {
     background-image: url(../img/reviews/giper.png);
-    background-size: 120%;
+    background-size: 130%;
+    background-position-x: 65%;
 }
 
 .item-contacts {
