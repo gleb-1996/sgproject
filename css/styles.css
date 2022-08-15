@@ -231,8 +231,8 @@ footer {
 }
 
 .item-reviews {
-    background-image: url(../img/reviews/gazp.png);
-    background-size: 200%;
+    background-image: url(../img/reviews/giper.png);
+    background-size: 120%;
 }
 
 .item-contacts {
@@ -467,6 +467,7 @@ li.seminar.active-link:hover {
     position: relative;
     margin-top: 10px;
     font-size: .85em;
+    text-align: justify;
 }
 
 .elem-list-description:first-child {
