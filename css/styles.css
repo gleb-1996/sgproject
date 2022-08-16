@@ -158,11 +158,18 @@ footer {
     margin-right: 10px;
 }
 
-.main-points {
-    display: flex;
+.main-points, .main-points-mobile {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
+}
+
+.main-points {
+    display: flex;
+}
+
+.main-points-mobile {
+    display: none;
 }
 
 .main-item, .main-item-mobile {

@@ -61,16 +61,35 @@
     .main-item-link {
         display: block;
     }
+
+    .main-points {
+        display: none;
+    }
+
+    .main-points-mobile {
+        display: flex;
+    }
+
+    .heading-item {
+        color: #fff;
+        font-size: 1.5em;
+        text-shadow: 3px -1px 5px #ff4537;
+    }
+
+    .dark_layer {
+        background-color: #000;
+        opacity: .7;
+    }
 }
 
 @media screen and (max-width: 768px) {
-    .main-item {
+    .main-item-mobile {
         width: 48%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .main-item {
+    .main-item-mobile {
         width: 100%;
     }
 }
