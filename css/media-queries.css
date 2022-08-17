@@ -71,13 +71,13 @@
     }
 
     .heading-item {
-        color: #fff;
+        color: #000;
         font-size: 2em;
         text-shadow: 3px -1px 5px #ff4537;
     }
 
     .dark_layer {
-        background-color: #000;
+        background-color: #c7e6ff;
         opacity: .8;
     }
 }
