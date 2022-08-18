@@ -316,11 +316,21 @@ footer {
     border-bottom: 1px solid #006ed6;
 }
 
+.item-partners {
+    width: 40%;
+    text-decoration: none;
+}
+
 .logo-customer {
     display: block;
     max-width: 100%;
     height: 120px;
     margin: 0 auto;
+    transition: .5s;
+}
+
+.logo-partners {
+    max-width: 100%;
     transition: .5s;
 }
 
@@ -631,4 +641,26 @@ li.seminar.active-link:hover {
     background-color: #000;
     opacity: .8;
     z-index: 0;
+}
+
+.dividing-line {
+    width: 40%;
+    margin: 50px auto;
+    border-top: 1px solid #006ed6;
+}
+
+.wrap-block-partners h2 {
+    text-align: center;
+}
+
+.block-partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrap-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

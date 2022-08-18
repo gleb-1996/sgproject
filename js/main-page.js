@@ -1,6 +1,7 @@
 'use strict';
 
 let $mainPointsMobile = document.querySelector('.main-points-mobile');
+let $logosPartners = document.querySelectorAll('.wrap-img');
 let $childs = $mainPointsMobile.childNodes;
 
 for (const $child of $childs) {
@@ -34,3 +35,19 @@ for (const $child of $childs) {
         }
     });
 }
+
+function heightLogosCalculation(arrLogos) {
+    let maxHeight = 0;
+
+    for (let i = 0; i < arrLogos.length; i++) {
+        if (arrLogos[i].clientHeight > maxHeight) {
+            maxHeight = arrLogos[i].clientHeight;
+        }
+    }
+
+    for (let j = 0; j < arrLogos.length; j++) {
+        arrLogos[j].setAttribute('style', 'height: ' + maxHeight + 'px');
+    }
+}
+
+heightLogosCalculation($logosPartners);
