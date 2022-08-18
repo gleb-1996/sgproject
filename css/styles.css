@@ -317,6 +317,7 @@ footer {
 }
 
 .item-partners {
+    display: block;
     width: 40%;
     text-decoration: none;
 }
