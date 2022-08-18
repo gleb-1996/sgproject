@@ -4,6 +4,8 @@ let $mainPointsMobile = document.querySelector('.main-points-mobile');
 let $logosPartners = document.querySelectorAll('.wrap-img');
 let $childs = $mainPointsMobile.childNodes;
 
+window.onload = heightLogosCalculation($logosPartners);
+
 for (const $child of $childs) {
     $child.addEventListener('click', function(event){
         let className = event.currentTarget.classList[1];
@@ -49,5 +51,3 @@ function heightLogosCalculation(arrLogos) {
         arrLogos[j].setAttribute('style', 'height: ' + maxHeight + 'px');
     }
 }
-
-heightLogosCalculation($logosPartners);
