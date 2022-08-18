@@ -331,8 +331,7 @@ footer {
 }
 
 .logo-partners {
-    max-width: 100%;
-    transition: .5s;
+    width: 55%;
 }
 
 .name-company, .name-review {
