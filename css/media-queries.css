@@ -80,6 +80,14 @@
         background-color: #c7e6ff;
         opacity: .8;
     }
+
+    .item-partners {
+        width: 50%;
+    }
+
+    .logo-partners {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -95,6 +103,10 @@
 
     .item-partners {
         width: 100%;
+    }
+
+    .logo-partners {
+        width: 70%;
     }
 }
 
