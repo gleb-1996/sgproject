@@ -337,7 +337,7 @@ footer {
 .name-company, .name-review {
     font-size: 1em;
     text-align: center;
-    color: #ff4537;
+    color: #000;
 }
 
 .item-customer:hover .logo-customer {
