@@ -69,6 +69,10 @@
     .logo-partners {
         width: 70%;
     }
+
+    .main-item:hover {
+        border: 1px solid #fff;
+    }
 }
 
 @media screen and (max-width: 768px) {
