@@ -158,35 +158,41 @@ footer {
     margin-right: 10px;
 }
 
-.main-points, .main-points-mobile {
+.main-points {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-.main-points {
-    display: flex;
-}
-
-.main-points-mobile {
-    display: none;
-}
-
-.main-item, .main-item-mobile {
+.main-item {
     position: relative;
+    box-sizing: border-box;
     width: 30%;
     height: 300px;
     margin-top: 20px;
     background-position: center;
     background-repeat: no-repeat;
+    transition: .5s;
+    border: 1px solid #fff;
+}
+
+.main-item:hover {
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.main-item:hover .heading-item {
+    cursor: pointer;
 }
 
 .dark_layer {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: #879fdd;
-    opacity: .3;
+    background-color: #c7e6ff;
+    opacity: .8;
     z-index: 0;
 }
 
@@ -213,7 +219,8 @@ footer {
 
 .heading-item {
     position: relative;
-    color: #fff;
+    color: #000;
+    font-size: 2em;
     text-transform: uppercase;
     text-align: center;
     cursor: default;
