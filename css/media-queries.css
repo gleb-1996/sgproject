@@ -70,8 +70,8 @@
         width: 70%;
     }
 
-    .main-item:hover {
-        border: 1px solid #fff;
+    .main-item, .main-item:hover {
+        border: none;
     }
 }
 
