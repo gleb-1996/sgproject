@@ -1,6 +1,6 @@
 'use strict';
 
-let $mainPointsMobile = document.querySelector('.main-points-mobile');
+let $mainPointsMobile = document.querySelector('.main-points');
 let $logosPartners = document.querySelectorAll('.wrap-img');
 let $childs = $mainPointsMobile.childNodes;
 
