@@ -62,29 +62,6 @@
 /* Content main page */
 
 @media screen and (max-width: 1023px) {
-    .main-item-link {
-        display: block;
-    }
-
-    .main-points {
-        display: none;
-    }
-
-    .main-points-mobile {
-        display: flex;
-    }
-
-    .heading-item {
-        color: #000;
-        font-size: 2em;
-        text-shadow: 3px -1px 5px #ff4537;
-    }
-
-    .dark_layer {
-        background-color: #c7e6ff;
-        opacity: .8;
-    }
-
     .item-partners {
         width: 50%;
     }
@@ -95,13 +72,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .main-item-mobile {
+    .main-item {
         width: 48%;
     }
 }
 
 @media screen and (max-width: 425px) {
-    .main-item-mobile {
+    .main-item {
         width: 100%;
     }
 
