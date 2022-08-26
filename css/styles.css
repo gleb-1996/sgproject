@@ -489,6 +489,10 @@ footer {
     border-bottom: 1px solid;
 }
 
+.seminar a {
+    text-decoration: none;
+}
+
 .seminar:last-child {
     padding-bottom: 5px;
 }
@@ -692,4 +696,23 @@ li.seminar.active-link:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.heading-seminar {
+    padding-top: 0;
+}
+
+.bread-crumbs {
+    display: block;
+    color: #006ed6;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+.bread-crumbs:hover {
+    text-decoration: underline;
+}
+
+.fa-long-arrow-left {
+    margin-right: 10px;
 }
