@@ -163,12 +163,12 @@
 }
 
 @media screen and (max-width: 425px) {
-    .description-service, .description-projects {
+    .description-projects {
         width: 100%;
         padding: 0;
       }
 
-      .items-services, .items-projects {
+      .items-projects {
         position: fixed;
         top: 0;
         left: 0;
@@ -181,29 +181,29 @@
         z-index: 9999;
       }
 
-      .nav-seminars {
+      /* .nav-seminars {
         height: 100%;
         overflow: scroll;
         color: #fff;
         list-style: none;
         padding: 0;
         margin: 0;
-      }
+      } */
 
-      .fa-chevron-right {
+      /* .fa-chevron-right {
         position: relative;
         display: inline-block;
-      }
+      } */
 
       .link-projects {
         color: #fff;
       }
 
-      .close-mobile-nav-seminars, .close-mobile-nav-projects {
+      .close-mobile-nav-projects {
         display: flex;
       }
 
-      .open-list-seminars, .open-list-projects {
+      .open-list-projects {
         display: flex;
       }
 
