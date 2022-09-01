@@ -430,11 +430,15 @@ footer {
     background-color: #ff4537;
 }
 
-.nav-seminars {
+.nav-seminars, .nav-seminars-mobile {
     color: #006ed6;
     list-style: none;
     padding: 0;
     margin: 15px 0;
+}
+
+.nav-seminars-mobile {
+    display: none;
 }
 
 .seminar-topics {
@@ -452,22 +456,30 @@ footer {
 
 .topic-text {
     position: relative;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.topic-text-mobile {
+    position: relative;
     padding-bottom: 5px;
     margin: 0;
 }
 
-.list-seminars {
+.list-seminars, .list-seminars-mobile {
     padding-left: 20px;
     list-style: none;
 }
 
-.seminar {
+.seminar, .seminar-mobile {
     position: relative;
-    padding-top: 5px;
+    padding: 5px 0;
     cursor: pointer;
 }
 
-.seminar:before {
+.seminar:before, .seminar-mobile:before {
     content: '';
     position: absolute;
     top: 0;
@@ -478,7 +490,7 @@ footer {
     border-left: 1px solid;
 }
 
-.seminar:after {
+.seminar:after, .seminar-mobile:after {
     content: '';
     position: absolute;
     top: 0;
@@ -489,15 +501,13 @@ footer {
     border-bottom: 1px solid;
 }
 
-.seminar a {
+.seminar-mobile a {
+    display: block;
+    padding: 5px 0;
     text-decoration: none;
 }
 
-.seminar:last-child {
-    padding-bottom: 5px;
-}
-
-.seminar:hover {
+.seminar:hover, .seminar-mobile:hover {
     text-decoration: underline;
 }
 
@@ -635,7 +645,7 @@ li.seminar.active-link:hover {
     top: 0;
     right: -5px;
     box-sizing: border-box;
-    display: none;
+    display: flex;
     align-items: center;
     height: 100%;
     padding-bottom: 5px;

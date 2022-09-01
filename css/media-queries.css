@@ -157,8 +157,20 @@
 /* Content seminars and projects page */
 
 @media screen and (max-width: 1023px) {
+    .nav-seminars-mobile {
+        display: block;
+    }
+
+    .wrapper-content-services {
+        display: none;
+    }
+
     .email-seminars {
         display: block;
+    }
+
+    .fa-chevron-right {
+        display: none;
     }
 }
 
