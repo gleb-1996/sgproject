@@ -264,10 +264,6 @@ footer {
     transition: 1s;
 }
 
-/* .main-item:hover .main-item-content {
-    justify-content: space-between;
-} */
-
 .main-item:hover .short-info {
     display: block;
 }
@@ -716,7 +712,7 @@ li.seminar.active-link:hover {
     align-items: center;
 }
 
-.heading-seminar {
+.heading-seminar, .heading-project {
     padding-top: 0;
 }
 
