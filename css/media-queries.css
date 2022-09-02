@@ -157,11 +157,11 @@
 /* Content seminars and projects page */
 
 @media screen and (max-width: 1023px) {
-    .nav-seminars-mobile {
+    .nav-seminars-mobile, .items-projects-mobile {
         display: block;
     }
 
-    .wrapper-content-services {
+    .wrapper-content-services, .wrapper-content-projects {
         display: none;
     }
 

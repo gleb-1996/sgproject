@@ -281,6 +281,11 @@ footer {
     transition: 1s;
 }
 
+.items-projects-mobile {
+    display: none;
+    padding-left: 15px;
+}
+
 .wrapper-content-services, .wrapper-content-projects {
     display: flex;
     justify-content: space-between;
@@ -293,11 +298,16 @@ footer {
     padding-right: 15px;
 }
 
-.link-service, .link-projects {
+.items-projects {
+    padding: 0 15px;
+}
+
+.link-projects, .link-projects-mobile {
+    position: relative;
     display: block;
     text-decoration: none;
     color: #006ed6;
-    padding-top: 15px;
+    padding: 10px 0;
 }
 
 .description-service, .description-projects {
@@ -479,7 +489,8 @@ footer {
     cursor: pointer;
 }
 
-.seminar:before, .seminar-mobile:before {
+.seminar:before, .seminar-mobile:before,
+.link-projects:before, .link-projects-mobile:before {
     content: '';
     position: absolute;
     top: 0;
@@ -490,7 +501,8 @@ footer {
     border-left: 1px solid;
 }
 
-.seminar:after, .seminar-mobile:after {
+.seminar:after, .seminar-mobile:after,
+.link-projects:after, .link-projects-mobile:after {
     content: '';
     position: absolute;
     top: 0;
@@ -558,10 +570,6 @@ li.seminar.active-link:hover {
 }
 
 .description-seminar, .description-project {
-    margin-bottom: 15px;
-}
-
-.link-projects:last-child {
     margin-bottom: 15px;
 }
 
