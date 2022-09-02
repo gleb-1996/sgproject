@@ -282,7 +282,7 @@ footer {
     padding-left: 15px;
 }
 
-.wrapper-content-services, .wrapper-content-projects {
+.wrapper-content-services, .wrapper-content-projects, .wrapper-content-reviews {
     display: flex;
     justify-content: space-between;
     min-height: 750px;
@@ -298,7 +298,12 @@ footer {
     padding: 0 15px;
 }
 
-.link-projects, .link-projects-mobile {
+.items-reviews {
+    width: 15%;
+    padding-left: 15px;
+}
+
+.link-projects, .link-projects-mobile, .link-reviews {
     position: relative;
     display: block;
     text-decoration: none;
@@ -311,8 +316,13 @@ footer {
     padding-left: 15px;
 }
 
+.description-reviews {
+    width: 80%;
+}
+
 .active-link {
     color: #ff4537 !important;
+    cursor: default;
 }
 
 .block-customers {
@@ -387,8 +397,12 @@ footer {
     display: block;
     width: 100%;
     height: auto;
-    border: 1px solid #e7e7e7;
+    margin-bottom: 15px;
+    border-left: 1px solid #006ed6;
+    border-right: 1px solid #006ed6;
+    border-bottom: 1px solid #006ed6;
     transition: .5s;
+    cursor: zoom-in;
 }
 
 .text-contact {
@@ -486,7 +500,8 @@ footer {
 }
 
 .seminar:before, .seminar-mobile:before,
-.link-projects:before, .link-projects-mobile:before {
+.link-projects:before, .link-projects-mobile:before,
+.link-reviews:before, .link-reviews-mobile:before {
     content: '';
     position: absolute;
     top: 0;
@@ -498,7 +513,8 @@ footer {
 }
 
 .seminar:after, .seminar-mobile:after,
-.link-projects:after, .link-projects-mobile:after {
+.link-projects:after, .link-projects-mobile:after,
+.link-reviews:after, .link-reviews-mobile:after {
     content: '';
     position: absolute;
     top: 0;
