@@ -303,7 +303,12 @@ footer {
     padding-left: 15px;
 }
 
-.link-projects, .link-projects-mobile, .link-reviews {
+.items-reviews-mobile {
+    display: none;
+    padding-left: 15px;
+}
+
+.link-projects, .link-projects-mobile, .link-reviews, .link-reviews-mobile {
     position: relative;
     display: block;
     text-decoration: none;
@@ -322,7 +327,6 @@ footer {
 
 .active-link {
     color: #ff4537 !important;
-    cursor: default;
 }
 
 .block-customers {
@@ -357,7 +361,7 @@ footer {
     width: 55%;
 }
 
-.name-company, .name-review {
+.name-company {
     font-size: 1em;
     text-align: center;
     color: #000;
@@ -366,30 +370,6 @@ footer {
 .item-customer:hover .logo-customer {
     transform: scale(1.1);
     transition: .5s;
-}
-
-.reviews-link:hover .img-review {
-    transform: scale(1.03);
-    transition: .5s;
-}
-
-.block-reviews {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.reviews-link:first-child, .reviews-link:nth-child(4) {
-    margin-left: 0;
-}
-
-.reviews-link {
-    width: 30%;
-    text-decoration: none;
-    border-bottom: 1px solid #006ed6;
-    margin-top: 20px;
-    margin-left: 5%;
 }
 
 .img-review {
@@ -531,11 +511,11 @@ footer {
     text-decoration: none;
 }
 
-.seminar:hover, .seminar-mobile:hover {
+.seminar:hover, .link-projects:hover, .link-reviews:hover {
     text-decoration: underline;
 }
 
-li.seminar.active-link:hover {
+li.seminar.active-link:hover, a.link-projects.active-link, a.link-reviews.active-link {
     text-decoration: none;
     cursor: default;
 }

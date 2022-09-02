@@ -118,13 +118,12 @@
 /* Content reviews page */
 
 @media screen and (max-width: 1023px) {
-    .block-reviews {
-        justify-content: space-between;
+    .wrapper-content-reviews {
+        display: none;
     }
 
-    .reviews-link {
-        width: 48%;
-        margin-left: 0;
+    .items-reviews-mobile {
+        display: block;
     }
 }
 
