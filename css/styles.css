@@ -227,6 +227,11 @@ footer {
     z-index: 100;
 }
 
+.item-about {
+    background-image: url(../img/back_about.png);
+    background-size: 60%;
+}
+
 .item-seminars {
     background-image: url(../img/back_seminars.jpg);
 }
@@ -721,4 +726,10 @@ li.seminar.active-link:hover, a.link-projects.active-link, a.link-reviews.active
 
 .fa-long-arrow-left {
     margin-right: 10px;
+}
+
+.heading-reviews, .heading-public {
+    position: relative;
+    left: -15px;
+    color: #006ed6;
 }
