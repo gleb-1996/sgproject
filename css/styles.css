@@ -359,7 +359,7 @@ footer {
 }
 
 .logo-partners {
-    width: 55%;
+    height: 80px;
 }
 
 .name-company {
@@ -711,6 +711,7 @@ li.seminar.active-link:hover, a.link-projects.active-link, a.link-reviews.active
 
 .heading-seminar, .heading-project {
     padding-top: 0;
+    font-size: 1.5em;
 }
 
 .bread-crumbs {
